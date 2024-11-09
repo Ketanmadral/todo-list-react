@@ -1,0 +1,88 @@
+.header {
+  background-color: #2196f3;
+  padding: 20px;
+  text-align: center;
+
+}
+
+.header h1 {
+  color: white;
+  margin: 0;
+}
+
+.container {
+  padding: 20px;
+}
+
+.task-list {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  margin-bottom: 20px;
+  padding: 16px;
+}
+
+.task {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.task input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.task .remove {
+  margin-left: auto;
+  color: #ff9800;
+  cursor: pointer;
+}
+
+.new-task {
+  /* display: flex;
+  flex-direction: column; */
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  margin-bottom: 10px;
+  padding: 16px;
+}
+
+.new-task input[type="text"] {
+  padding: 8px;
+  margin-right: 10px;
+  border: none;
+}
+
+.new-task input[type="text"]:focus {
+  outline: none;
+}
+
+.new-task button {
+ background-color: inherit;
+  color: #2196f3;
+  border: none;
+  cursor: pointer;
+  float: right;
+  outline: none;
+  margin: 8px 0px;
+  padding: 0;
+  /* align-self: flex-end; */
+}
+
+
+
+.new-task::after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin: 0;
+}
+
+.text {
+  text-decoration: line-through;
+}
