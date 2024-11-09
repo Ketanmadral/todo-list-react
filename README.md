@@ -1,3 +1,16 @@
-# Todo List React 
+# Todo List React
 
-Todo List React is a task management application built using React, Context API, and Reducer Hooks. This project allows users to create, update, and delete tasks, with state management handled efficiently using the Context API and Reducer pattern. 
+This is a simple task management application built with React, Context API, and Reducer hooks.
+
+## Features
+
+- Add and delete tasks
+- Manage state using Context API and Reducer hooks
+- Responsive UI
+
+## Installation
+
+1. Clone the repository
+2. Run `npm install`
+3. Run `npm start`
+
